@@ -77,5 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        listView.setAdapter(adapter);
     }
 }
