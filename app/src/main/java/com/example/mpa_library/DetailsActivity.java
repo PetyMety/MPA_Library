@@ -27,7 +27,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         titleTextView.setText(title);
         authorTextView.setText(author);
-        pagesTextView.setText(pages);
+        pagesTextView.setText(String.valueOf(pages));
         yearTextView.setText(String.valueOf(randomYear));
 
         buttonBack.setOnClickListener(back -> finish());
